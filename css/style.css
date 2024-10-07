@@ -115,8 +115,14 @@ header div p{
     font-size: 15px;
     text-align: center;
   }
-  
 
+/* Styles pour les images dans la grid-container */
+.grid-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 
 /* Grille avec 4 colonnes sur les écrans larges (≥1080px) */
 @media(min-width: 1025px) {
@@ -128,6 +134,7 @@ header div p{
     
     .grid-parent {
         padding-top: 30px;
+        margin: 40px auto;
       }
     
     .grid-item {
@@ -148,6 +155,7 @@ header div p{
 
     .grid-parent {
         padding-top: 30px;
+        margin: 40px auto;
       }
     
     .grid-item img {
@@ -169,6 +177,7 @@ header div p{
 
     .grid-parent {
         padding-top: 30px;
+        margin: 40px auto;
     }
     
     .grid-item img {
