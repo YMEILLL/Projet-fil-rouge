@@ -1,0 +1,110 @@
+#grid {
+    display: grid;
+    height: 50px;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns : 1fr 3fr 1fr;
+    width: 98vw;
+    margin: auto;
+    color: white;
+    border-color: white;
+    border-bottom: 1px solid;
+  }
+  
+  #areaA {
+    background-color: #041821;
+    padding: 5px;
+    font-size: 25px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  
+  #areaB {
+    background-color: #041821;
+  }
+  
+  #areaC {
+    background-color: #041821;
+    padding: 5px;
+    margin-left: auto;
+  }
+
+  #imge{
+    padding-left: 15px;
+  }
+
+body {
+    background-color: #041821;
+}
+
+section {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 3%;
+}
+
+#Titre1{
+    color: white;
+    margin: 0px;
+    
+    width: 80vw;
+    margin: auto;
+}
+
+#Titre2{
+    color : rgb(23,213,154);
+    margin: 0px;
+    width: 80vw;
+    margin: auto;
+}
+
+#texte1{
+    color: grey;
+    font-size: 18px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 2%;
+    padding: 4px;
+}
+
+#points{
+    color : rgb(23,213,154);
+}
+
+        
+.grid-container {
+    display: grid;
+}
+
+/* Grille avec 4 colonnes sur les écrans larges (≥1080px) */
+@media(min-width: 1025px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Grille avec 5 colonnes sur tablette */
+@media(min-width: 768px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Grille avec 3 colonnes sur mobile */
+@media(max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.grid-item {
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
