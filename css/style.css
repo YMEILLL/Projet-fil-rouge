@@ -1,3 +1,7 @@
+/* Importation des polices depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
 body {
     background-color: #041821;
 }
@@ -77,26 +81,104 @@ header div p{
     
   }
 
+  #ul1 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    color: white;
+  }
+  
+  #li1 {
+    margin-right: 20px;
+    text-align: center;
+    display: block;
+  }
+
+
+  #vert-back{
+    background-color: rgb(23,213,154) ;
+    padding: 5px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+  }
+  
+  footer #footb {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  
 
 
 /* Grille avec 4 colonnes sur les écrans larges (≥1080px) */
 @media(min-width: 1025px) {
     .grid-container {
         grid-template-columns: repeat(4, 1fr);
+        width: 80vw;
+        margin: auto;
+      }
+    
+    .grid-parent {
+        padding-top: 30px;
+      }
+    
+    .grid-item {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .grid-item img {
+        max-width: 200px;
+        height: 200px;
     }
 }
-
 /* Grille avec 5 colonnes sur tablette */
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 640px) and (max-width: 1024px) {
     .grid-container {
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .grid-parent {
+        padding-top: 30px;
+      }
+    
+    .grid-item img {
+      max-width: 140px;
+      height: 140px;
+    }
+    
+    .grid-item {
+      max-width: 140px;
+      height: 140px;
     }
 }
 
 /* Grille avec 3 colonnes sur mobile */
-@media(max-width: 767px) {
+@media(max-width: 640px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-parent {
+        padding-top: 30px;
+    }
+    
+    .grid-item img {
+      max-width: 140px;
+      height: 140px;
+    }
+    
+    .grid-item {
+        max-width: 140px;
+        height: 140px;
     }
 
     .container{
@@ -114,5 +196,8 @@ header div p{
         text-align: center;
         margin: 0%;
         padding: 0%;
+    }
+    .grid-container img:nth-child(n + 10) {
+        display: none;
     }
 }
