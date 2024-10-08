@@ -22,6 +22,7 @@ section {
     margin: 0px;
     width: 80vw; /* Largeur de 80% de la vue */
     margin: auto; /* Centrage */
+    font-weight: bold;
 }
 
 /* Styles pour Titre2 */
@@ -30,14 +31,15 @@ section {
     margin: 0px;
     width: 80vw; /* Largeur de 80% de la vue */
     margin: auto; /* Centrage */
+    font-weight: bold;
 }
 
 /* Styles pour le texte descriptif */
 #texte1 {
     color: grey; /* Couleur du texte */
     font-size: 18px; /* Taille de la police */
-    width: 80vw; /* Largeur de 80% de la vue */
-    margin: auto; /* Centrage */
+    width: 50%; /* Largeur de 80% de la vue */
+    margin-left: 9%; ; /* Centrage */
     margin-top: 2%; /* Marge supérieure */
     padding: 4px; /* Padding */
 }
@@ -50,6 +52,7 @@ section {
 /* Styles pour la grille d'images */
 .grid-container {
     display: grid; /* Utilisation de grid pour la disposition */
+    padding: 5px;
 }
 
 /* Styles pour le container */
@@ -96,14 +99,16 @@ header div p {
     display: flex; /* Flexbox pour l'alignement */
     padding: 0px; /* Pas de padding */
     margin: 0px; /* Pas de marge */
+    padding-top: 5px;
     margin-right: auto;
     margin-left: auto; /* Centrage */
     justify-content: center; /* Centrage des éléments */
     color: white; /* Couleur du texte */
+    font-family: "Monteserat", sans-serif;
 }
 
 /* Styles pour les éléments de la liste */
-#li1 {
+.li1 {
     margin-right: 20px; /* Marge à droite */
     text-align: center; /* Centre le texte */
     display: block; /* Affichage en bloc */
@@ -124,7 +129,7 @@ footer {
 }
 
 /* Styles pour le texte dans le footer */
-footer #footb {
+footer #footer {
     color: white; /* Couleur du texte */
     font-size: 15px; /* Taille de la police */
     text-align: center; /* Centre le texte */
@@ -132,9 +137,10 @@ footer #footb {
 
 /* Styles pour les images dans la grid-container */
 .grid-container img {
-    width: 100%; /* Largeur à 100% */
+    width: 98%; /* Largeur à 100% */
     height: auto; /* Hauteur automatique */
     display: block; /* Affichage en bloc */
+    padding: 5px;
 }
 
 /* Grille avec 4 colonnes sur les écrans larges (≥1080px) */
