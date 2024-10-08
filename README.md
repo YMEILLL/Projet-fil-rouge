@@ -1,20 +1,19 @@
 # Projet fil rouge
+### But du projet :
 
-But du projet : 
+- Le but du projet était de refaire une page web donnée par le professeur au plus proche de l'original.
 
-- Le but du projet était de refaire une page web donner par le professeur au plus proche de l'original.
+### Réalisation :
 
-Réalisation :
+- Pour ce faire, on a utilisé plusieurs outils pour pouvoir le répliquer. Par exemple, pour avoir les couleurs du site, j'ai utilisé un site web qui me permet de récupérer une couleur sur une image.
 
-- Pour ce faire on a utilisée plusieurs outils pour pouvoir le répliquer. par exemple pour avoir les couleurs du sites j'ai utiliser un sites web qui me permet de récupérer une couleur sur une images.
+- On a reproduit le site en codant en HTML et CSS sur VS Code.
 
-- on a reproduit le site en codant en html et css sur vscode.
+- On a utilisé un kit Font Awesome qui nous a permis d'importer des icônes pour refaire à l'identique le site.
 
-- on a utiliser un kit Font Awesome qui nous a permis d'importer des icons pour refaire a l'identique le site.
-
-- on a aussi repris les bonne police utiliser sur la maquette grâce a l'API Google Fonts.
+- On a aussi repris les bonnes polices utilisées sur la maquette grâce à l'API Google Fonts.
 
 
-## Liens vers git hub page 
+##  Liens vers github page
 
  -> https://github.com/YMEILLL/Projet-fil-rouge.git
