@@ -14,6 +14,6 @@
 - On a aussi repris les bonnes polices utilisées sur la maquette grâce à l'API Google Fonts.
 
 
-##  Liens vers github page
+##  Liens du projet 
+https://ymeilll.github.io/Projet-fil-rouge/
 
- -> https://github.com/YMEILLL/Projet-fil-rouge.git
